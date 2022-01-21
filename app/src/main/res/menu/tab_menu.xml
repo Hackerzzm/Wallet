@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+    android:id="@+id/tab_main_menu"
+    android:title="@string/main_menu"
+    android:icon="@drawable/ic_home_page_tab"
+    app:labelVisibilityMode="labeled"/>
+  <item
+    android:id="@+id/tab_my_account_book"
+    android:title="@string/my_account_book"
+    android:icon="@drawable/ic_my_account_book_tab"
+    app:labelVisibilityMode="labeled"/>
+  <item
+    android:id="@+id/tab_account_book_module"
+    android:title="@string/account_book_module"
+    android:icon="@drawable/ic_account_book_module_tab"
+    app:labelVisibilityMode="labeled"/>
+  <item
+    android:id="@+id/tab_mine"
+    android:title="@string/mine"
+    android:icon="@drawable/ic_mine_tab"
+    app:labelVisibilityMode="labeled"/>
+</menu>

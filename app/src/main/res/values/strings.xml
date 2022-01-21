@@ -1,3 +1,7 @@
 <resources>
   <string name="app_name">Wallet</string>
+  <string name="main_menu">首页</string>
+  <string name="my_account_book">我的账本</string>
+  <string name="account_book_module">账本模板</string>
+  <string name="mine">我的</string>
 </resources>
