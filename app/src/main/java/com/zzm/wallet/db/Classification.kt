@@ -4,6 +4,9 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
+/**
+ 收入支出类型
+ */
 @Entity
 data class Classification(
   @PrimaryKey(autoGenerate = true) val uid: Int?,

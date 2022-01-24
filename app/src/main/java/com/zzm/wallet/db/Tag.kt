@@ -4,6 +4,9 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
+/**
+ 收入支出标签
+ */
 @Entity
 data class Tag(
   @PrimaryKey(autoGenerate = true) val uid: Int?,
