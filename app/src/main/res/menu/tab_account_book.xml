@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+    android:id="@+id/tab_asset"
+    android:title="@string/account"
+    android:icon="@drawable/ic_asset"
+    app:labelVisibilityMode="labeled"/>
+  <item
+    android:id="@+id/tab_account_statement"
+    android:title="@string/account_statement"
+    android:icon="@drawable/ic_account_statement"
+    app:labelVisibilityMode="labeled"/>
+  <item
+    android:id="@+id/tab_chart"
+    android:title="@string/chart"
+    android:icon="@drawable/ic_chart"
+    app:labelVisibilityMode="labeled"/>
+  <item
+    android:id="@+id/tab_setting"
+    android:title="@string/setting"
+    android:icon="@drawable/ic_setting"
+    app:labelVisibilityMode="labeled"/>
+</menu>

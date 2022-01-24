@@ -15,7 +15,6 @@ abstract class BaseActivity : AppCompatActivity() {
     MyApplication.addActivity(this)
   }
 
-  abstract fun start(context: Context)//启动界面
   override fun onDestroy() {
     super.onDestroy()
     MyApplication.finishActivity(this)

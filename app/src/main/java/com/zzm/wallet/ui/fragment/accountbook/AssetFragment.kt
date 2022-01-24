@@ -1,15 +1,15 @@
-package com.zzm.wallet.ui.fragment.main
+package com.zzm.wallet.ui.fragment.accountbook
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.zzm.wallet.core.BaseFragment
+import com.zzm.wallet.databinding.FragmentAssetBinding
 import com.zzm.wallet.databinding.FragmentHomePageBinding
-import com.zzm.wallet.databinding.FragmentMineBinding
 
-class HomePageFragment:BaseFragment() {
-  private var _binding: FragmentHomePageBinding? = null
+class AssetFragment: BaseFragment() {
+  private var _binding: FragmentAssetBinding? = null
   private val binding get() = _binding!!
 
   override fun onCreateView(
@@ -18,7 +18,7 @@ class HomePageFragment:BaseFragment() {
     savedInstanceState: Bundle?
   ): View {
     super.onCreateView(inflater, container, savedInstanceState)
-    _binding = FragmentHomePageBinding.inflate(inflater, container, false)
+    _binding = FragmentAssetBinding.inflate(inflater, container, false)
     return binding.root
   }
 }

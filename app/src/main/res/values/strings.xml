@@ -4,4 +4,10 @@
   <string name="my_account_book">我的账本</string>
   <string name="account_book_module">账本模板</string>
   <string name="mine">我的</string>
+  <string name="press_again_to_exit_app">再按一次退出程序</string>
+  <string name="account">账户</string>
+  <string name="account_statement">流水</string>
+  <string name="chart">图标</string>
+  <string name="calendar">图表</string>
+  <string name="setting">设置</string>
 </resources>
