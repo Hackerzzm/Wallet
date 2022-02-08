@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import com.zzm.wallet.core.BaseFragment
 import com.zzm.wallet.databinding.FragmentAssetBinding
-import com.zzm.wallet.databinding.FragmentHomePageBinding
 
 class AssetFragment: BaseFragment() {
   private var _binding: FragmentAssetBinding? = null

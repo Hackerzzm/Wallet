@@ -7,6 +7,9 @@ import android.view.ViewGroup
 import com.zzm.wallet.core.BaseFragment
 import com.zzm.wallet.databinding.FragmentMineBinding
 
+/**
+ * 我的分页
+ */
 class MineFragment:BaseFragment() {
   private var _binding: FragmentMineBinding? = null
   private val binding get() = _binding!!

@@ -12,8 +12,8 @@ import com.zzm.wallet.R
 import com.zzm.wallet.core.BaseActivity
 import com.zzm.wallet.core.MyApplication
 import com.zzm.wallet.databinding.ActivityMainBinding
-import com.zzm.wallet.ui.fragment.main.AccountBookModuleFragment
-import com.zzm.wallet.ui.fragment.main.HomePageFragment
+import com.zzm.wallet.ui.fragment.main.AccountFragment
+import com.zzm.wallet.ui.fragment.main.MaterialsFragment
 import com.zzm.wallet.ui.fragment.main.MineFragment
 import com.zzm.wallet.ui.fragment.main.MyAccountBookFragment
 
@@ -51,9 +51,9 @@ class MainActivity : BaseActivity() {
     })
     binding.bottomNavView.setOnNavigationItemSelectedListener {
       when (it.itemId) {
-        R.id.tab_home_page -> binding.viewPager2.setCurrentItem(0, true)
+        R.id.tab_account_page -> binding.viewPager2.setCurrentItem(0, true)
         R.id.tab_my_account_book -> binding.viewPager2.setCurrentItem(1, true)
-        R.id.tab_account_book_module -> binding.viewPager2.setCurrentItem(2, true)
+        R.id.tab_materials_module -> binding.viewPager2.setCurrentItem(2, true)
         R.id.tab_mine -> binding.viewPager2.setCurrentItem(3, true)
       }
       true
@@ -63,9 +63,9 @@ class MainActivity : BaseActivity() {
 
   val mainFragments = mutableListOf<Fragment>()
   private fun initFragments() {
-    mainFragments.add(HomePageFragment())
+    mainFragments.add(AccountFragment())
     mainFragments.add(MyAccountBookFragment())
-    mainFragments.add(AccountBookModuleFragment())
+    mainFragments.add(MaterialsFragment())
     mainFragments.add(MineFragment())
   }
 

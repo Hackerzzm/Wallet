@@ -4,15 +4,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
-import com.zzm.wallet.databinding.FragmentMyAccountBookBinding
-import com.zzm.wallet.ui.activity.AccountBookActivity
+import com.zzm.wallet.core.BaseFragment
+import com.zzm.wallet.databinding.FragmentAccountBinding
+import com.zzm.wallet.ui.activity.newAccount.NewAccountActivity
 
 /**
- * 我的账本分页
+ * 账户分页
  */
-class MyAccountBookFragment : Fragment() {
-  private var _binding: FragmentMyAccountBookBinding? = null
+class AccountFragment:BaseFragment() {
+  private var _binding: FragmentAccountBinding? = null
   private val binding get() = _binding!!
 
   override fun onCreateView(
@@ -21,18 +21,23 @@ class MyAccountBookFragment : Fragment() {
     savedInstanceState: Bundle?
   ): View {
     super.onCreateView(inflater, container, savedInstanceState)
-    _binding = FragmentMyAccountBookBinding.inflate(inflater, container, false)
+    _binding = FragmentAccountBinding.inflate(inflater, container, false)
     return binding.root
   }
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
     initView()
+    initEvent()
+  }
+
+  private fun initEvent() {
+    binding.efab.setOnClickListener{
+      NewAccountActivity.start(requireContext())
+    }
   }
 
   private fun initView() {
-    binding.goAccountBookActivity.setOnClickListener {
-      AccountBookActivity.start(requireContext())
-    }
+
   }
 }

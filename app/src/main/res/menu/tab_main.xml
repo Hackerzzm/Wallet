@@ -2,9 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto">
   <item
-    android:id="@+id/tab_home_page"
-    android:title="@string/main_menu"
-    android:icon="@drawable/ic_home_page_tab"
+    android:id="@+id/tab_account_page"
+    android:title="@string/account"
+    android:icon="@drawable/ic_account"
     app:labelVisibilityMode="labeled"/>
   <item
     android:id="@+id/tab_my_account_book"
@@ -12,9 +12,9 @@
     android:icon="@drawable/ic_my_account_book_tab"
     app:labelVisibilityMode="labeled"/>
   <item
-    android:id="@+id/tab_account_book_module"
-    android:title="@string/account_book_module"
-    android:icon="@drawable/ic_account_book_module_tab"
+    android:id="@+id/tab_materials_module"
+    android:title="@string/materials"
+    android:icon="@drawable/ic_materials2"
     app:labelVisibilityMode="labeled"/>
   <item
     android:id="@+id/tab_mine"

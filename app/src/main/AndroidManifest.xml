@@ -19,5 +19,7 @@
       </intent-filter>
     </activity>
     <activity android:name=".ui.activity.AccountBookActivity" android:exported="true" />
+    <activity android:name=".ui.activity.newAccount.NewAccountActivity" android:exported="true" />
+    <activity android:name=".ui.activity.newAccount.NewAccountDetailActivity" android:exported="true" />
   </application>
 </manifest>

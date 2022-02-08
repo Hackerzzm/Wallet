@@ -10,4 +10,6 @@
   <string name="chart">图标</string>
   <string name="calendar">图表</string>
   <string name="setting">设置</string>
+  <string name="materials">物品</string>
+  <string name="new_account">新建账户</string>
 </resources>

@@ -5,11 +5,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.zzm.wallet.core.BaseFragment
-import com.zzm.wallet.databinding.FragmentHomePageBinding
-import com.zzm.wallet.databinding.FragmentMineBinding
+import com.zzm.wallet.databinding.FragmentMaterialsBinding
 
-class HomePageFragment:BaseFragment() {
-  private var _binding: FragmentHomePageBinding? = null
+/**
+ * 物品分页
+ */
+class MaterialsFragment:BaseFragment() {
+  private var _binding: FragmentMaterialsBinding? = null
   private val binding get() = _binding!!
 
   override fun onCreateView(
@@ -18,7 +20,7 @@ class HomePageFragment:BaseFragment() {
     savedInstanceState: Bundle?
   ): View {
     super.onCreateView(inflater, container, savedInstanceState)
-    _binding = FragmentHomePageBinding.inflate(inflater, container, false)
+    _binding = FragmentMaterialsBinding.inflate(inflater, container, false)
     return binding.root
   }
 }

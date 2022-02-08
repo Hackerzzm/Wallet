@@ -9,15 +9,10 @@ import androidx.viewpager2.widget.ViewPager2
 import com.zzm.wallet.R
 import com.zzm.wallet.core.BaseActivity
 import com.zzm.wallet.databinding.ActivityAccountBookBinding
-import com.zzm.wallet.databinding.ActivityMainBinding
 import com.zzm.wallet.ui.fragment.accountbook.AccountStatementFragment
 import com.zzm.wallet.ui.fragment.accountbook.AssetFragment
 import com.zzm.wallet.ui.fragment.accountbook.ChartFragment
 import com.zzm.wallet.ui.fragment.accountbook.SettingFragment
-import com.zzm.wallet.ui.fragment.main.AccountBookModuleFragment
-import com.zzm.wallet.ui.fragment.main.HomePageFragment
-import com.zzm.wallet.ui.fragment.main.MineFragment
-import com.zzm.wallet.ui.fragment.main.MyAccountBookFragment
 
 class AccountBookActivity : BaseActivity() {
   private lateinit var binding: ActivityAccountBookBinding
