@@ -4,7 +4,6 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import com.zzm.wallet.core.BaseActivity
-import com.zzm.wallet.databinding.ActivityAccountBookBinding
 import com.zzm.wallet.databinding.ActivityNewAccountBinding
 
 class NewAccountActivity:BaseActivity() {
@@ -29,5 +28,4 @@ class NewAccountActivity:BaseActivity() {
       context.startActivity(Intent(context, NewAccountActivity::class.java))
     }
   }
-
 }
